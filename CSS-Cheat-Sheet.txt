@@ -1,0 +1,29 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter.
+Css will read the last line
+
+.class
+#id
+* //get everything
+element //just the tag
+element, element  //we want both the h2 and p to have these properties eg h2,p
+element element // we  want to select all p that innside h2 eg h2 p
+element > element //I want you to select all p that have a parent h2
+element + element // all sibling of h2 that are p
+:hover
+:last-child
+:first-child
+!important (not recommended)
+px just pixels
+
+em relative to rest of tag
+rem relative to root element
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
